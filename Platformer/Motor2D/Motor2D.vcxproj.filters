@@ -13,44 +13,83 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Archivos de recursos\Helpers">
+      <UniqueIdentifier>{a1409b6d-672a-48a1-9338-bf85d24d1b06}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="p2Log.cpp">
-      <Filter>Archivos de recursos</Filter>
-    </ClCompile>
     <ClCompile Include="j1Main.cpp">
       <Filter>Archivos de recursos</Filter>
     </ClCompile>
     <ClCompile Include="j1App.cpp">
       <Filter>Archivos de recursos</Filter>
     </ClCompile>
+    <ClCompile Include="p2Log.cpp">
+      <Filter>Archivos de recursos\Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="j1Audio.cpp">
+      <Filter>Archivos de recursos</Filter>
+    </ClCompile>
+    <ClCompile Include="j1Input.cpp">
+      <Filter>Archivos de recursos</Filter>
+    </ClCompile>
+    <ClCompile Include="j1Map.cpp">
+      <Filter>Archivos de recursos</Filter>
+    </ClCompile>
+    <ClCompile Include="j1Render.cpp">
+      <Filter>Archivos de recursos</Filter>
+    </ClCompile>
+    <ClCompile Include="j1Textures.cpp">
+      <Filter>Archivos de recursos</Filter>
+    </ClCompile>
+    <ClCompile Include="j1Window.cpp">
+      <Filter>Archivos de recursos</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="p2SString.h">
-      <Filter>Archivos de recursos</Filter>
-    </ClInclude>
-    <ClInclude Include="p2Point.h">
-      <Filter>Archivos de recursos</Filter>
-    </ClInclude>
-    <ClInclude Include="p2Log.h">
-      <Filter>Archivos de recursos</Filter>
-    </ClInclude>
-    <ClInclude Include="p2List.h">
-      <Filter>Archivos de recursos</Filter>
-    </ClInclude>
-    <ClInclude Include="p2DynArray.h">
-      <Filter>Archivos de recursos</Filter>
-    </ClInclude>
-    <ClInclude Include="p2Defs.h">
-      <Filter>Archivos de recursos</Filter>
-    </ClInclude>
     <ClInclude Include="j1Module.h">
       <Filter>Archivos de recursos</Filter>
     </ClInclude>
-    <ClInclude Include="Animation.h">
+    <ClInclude Include="j1App.h">
       <Filter>Archivos de recursos</Filter>
     </ClInclude>
-    <ClInclude Include="j1App.h">
+    <ClInclude Include="Animation.h">
+      <Filter>Archivos de recursos\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="p2Defs.h">
+      <Filter>Archivos de recursos\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="p2Point.h">
+      <Filter>Archivos de recursos\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="p2DynArray.h">
+      <Filter>Archivos de recursos\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="p2Log.h">
+      <Filter>Archivos de recursos\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="p2List.h">
+      <Filter>Archivos de recursos\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="p2SString.h">
+      <Filter>Archivos de recursos\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="j1Audio.h">
+      <Filter>Archivos de recursos</Filter>
+    </ClInclude>
+    <ClInclude Include="j1Input.h">
+      <Filter>Archivos de recursos</Filter>
+    </ClInclude>
+    <ClInclude Include="j1Map.h">
+      <Filter>Archivos de recursos</Filter>
+    </ClInclude>
+    <ClInclude Include="j1Render.h">
+      <Filter>Archivos de recursos</Filter>
+    </ClInclude>
+    <ClInclude Include="j1Textures.h">
+      <Filter>Archivos de recursos</Filter>
+    </ClInclude>
+    <ClInclude Include="j1Window.h">
       <Filter>Archivos de recursos</Filter>
     </ClInclude>
   </ItemGroup>
